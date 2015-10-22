@@ -1,0 +1,237 @@
+#main, #header, #banner, #menubar, #site_content, #footer, #content_cream, #footer_container{
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#main, #header, #banner, #footer, #footer_container{
+  min-width: 1100px
+}
+
+
+#header{
+  height: 80px;
+  background: black;
+  border-bottom: 3px solid grey;
+  width: 110%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#banner{
+  width: 940px;
+  position: relative;
+  height: 50px;
+  padding: 15px 0 0 0;
+  background: transparent;
+}
+
+#welcome{
+  width: 355px;
+  float: left;
+  height: 50px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-top: 5px;
+  background: transparent;
+}   
+   
+#welcome H1{
+  font: normal 250% Arial;
+  letter-spacing: 2px;
+  color: white;
+}
+  
+#menu_container{
+  height: 50px;
+}  
+  
+#menubar{
+  width: 560px;
+  height: 50px;
+  float: right;
+  margin: 0 auto;
+  background: transparent;
+} 
+  
+ul#menu{
+  margin:0;
+}
+
+ul#menu li{
+  padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  background: transparent;
+}
+
+ul#menu li a{
+  float: left;
+  font:  130% Arial;
+  height: 45px;
+  margin: -15px 0 0 -250px;
+  padding: 26px 11px 0 13px;
+  background: transparent; 
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 5px;
+  border-color: grey;
+} 
+
+ul#menu li:first-child a{
+  float: left;
+  font:  130% Arial;
+  height: 45px;
+  margin: -15px 0 0 -374px;
+  padding: 26px 11px 0 13px;
+  background: transparent; 
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 5px;
+  border-color: grey;
+} 
+  
+ul#menu li.current a{
+  color: grey;
+}
+  
+ul#menu li:hover a{
+  color: grey;
+}
+
+a, a:hover{
+  color: #FFF;
+  background: transparent;
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover{ 
+  color: grey;
+}
+
+ul{
+  margin: 2px 0 22px 30px;
+  line-height: 1.7em;
+  font-style: normal;
+  font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font: normal 175% Arial, Helvetica, sans-serif;
+  color: #FFF;
+  text-shadow: 0px -1px 0px #000;
+  letter-spacing: -1px;
+  margin: 0 0 10px 0;
+}
+
+ body {
+     background-color: white;
+     color: #fff;
+     font-family: Helvetica;
+     font-size: 16px;
+     line-height: 1.5;
+ }
+ 
+ h1 {
+     font-size: 34px;
+ }
+ 
+ h2 {
+     font-size: 28px;
+ }
+ 
+ .header-statement {
+     padding: 5% 10%;
+     text-align: center;
+ }
+
+.page-row {
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    padding: 5%;
+    margin: 2% 0;
+}
+
+.cards {
+    overflow: hidden;
+}
+
+.card {
+    width: 20%;
+    margin: 2.5%;
+    height: 300px;
+    float: left;
+}
+
+.half-width {
+    width: 48%;
+    margin: 1%;
+    height: 500px;
+    float: right;
+}
+
+
+.bg-red {
+    background-color: purple;
+}
+
+.bg-orange {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: orange;
+}
+
+.bg-blue {
+    background-color: yellow;
+}
+
+.bg-purple {
+    background-color: blue;
+}
+
+.footer {
+  width: 110%;
+  height: 100px;
+  line-height: 100px;
+  background: black;
+  border-top: 3px solid grey;
+  position: absolute;
+  left: 0;
+}
+
+.copyright {
+    float: left;
+    margin-left: 20px;
+}
+
+.social-links {
+    float: right;
+    margin-right: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+}
+
+section h1, h2 {
+  text-align: center;
+}
+
+section p {
+  margin-left: 5px;
+}
